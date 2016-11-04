@@ -1,0 +1,653 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11316C741B2F84E30051A8AF /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11316C731B2F84E30051A8AF /* SettingsViewController.m */; };
+		11316C761B306E1F0051A8AF /* gamecenter.png in Resources */ = {isa = PBXBuildFile; fileRef = 11316C751B306E1F0051A8AF /* gamecenter.png */; };
+		11316C781B3070910051A8AF /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11316C771B3070910051A8AF /* iAd.framework */; };
+		11316C7A1B3075490051A8AF /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11316C791B3075490051A8AF /* GameKit.framework */; };
+		11316C7F1B3077250051A8AF /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 11316C7B1B3077250051A8AF /* Reachability.m */; };
+		11316C801B3077250051A8AF /* GameCenterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 11316C7D1B3077250051A8AF /* GameCenterManager.m */; };
+		11316C831B30772D0051A8AF /* NSDataAES256.m in Sources */ = {isa = PBXBuildFile; fileRef = 11316C811B30772D0051A8AF /* NSDataAES256.m */; };
+		11666BB71B30AA9D00207727 /* ohh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 11666BB61B30AA9D00207727 /* ohh.mp3 */; };
+		11666BB91B30AB6700207727 /* applause.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 11666BB81B30AB6600207727 /* applause.mp3 */; };
+		11666BBF1B30B57900207727 /* slide.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 11666BBE1B30B57900207727 /* slide.mp3 */; };
+		11666BE81B31CC6600207727 /* Icon-60.png in Resources */ = {isa = PBXBuildFile; fileRef = 11666BD61B31CC6600207727 /* Icon-60.png */; };
+		11666BE91B31CC6600207727 /* Icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11666BD71B31CC6600207727 /* Icon-60@2x.png */; };
+		11666BEA1B31CC6600207727 /* Icon-60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11666BD81B31CC6600207727 /* Icon-60@3x.png */; };
+		11666BEB1B31CC6600207727 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 11666BD91B31CC6600207727 /* Icon-72.png */; };
+		11666BEC1B31CC6600207727 /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11666BDA1B31CC6600207727 /* Icon-72@2x.png */; };
+		11666BED1B31CC6600207727 /* Icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = 11666BDB1B31CC6600207727 /* Icon-76.png */; };
+		11666BEE1B31CC6600207727 /* Icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11666BDC1B31CC6600207727 /* Icon-76@2x.png */; };
+		11666BEF1B31CC6600207727 /* Icon-76@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11666BDD1B31CC6600207727 /* Icon-76@3x.png */; };
+		11666BF01B31CC6600207727 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 11666BDE1B31CC6600207727 /* Icon-Small-50.png */; };
+		11666BF11B31CC6600207727 /* Icon-Small-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11666BDF1B31CC6600207727 /* Icon-Small-50@2x.png */; };
+		11666BF21B31CC6600207727 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 11666BE01B31CC6600207727 /* Icon-Small.png */; };
+		11666BF31B31CC6600207727 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11666BE11B31CC6600207727 /* Icon-Small@2x.png */; };
+		11666BF41B31CC6600207727 /* Icon-Small@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11666BE21B31CC6600207727 /* Icon-Small@3x.png */; };
+		11666BF51B31CC6600207727 /* Icon-Spotlight-40.png in Resources */ = {isa = PBXBuildFile; fileRef = 11666BE31B31CC6600207727 /* Icon-Spotlight-40.png */; };
+		11666BF61B31CC6600207727 /* Icon-Spotlight-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11666BE41B31CC6600207727 /* Icon-Spotlight-40@2x.png */; };
+		11666BF71B31CC6600207727 /* Icon-Spotlight-40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11666BE51B31CC6600207727 /* Icon-Spotlight-40@3x.png */; };
+		11666BF81B31CC6600207727 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 11666BE61B31CC6600207727 /* Icon.png */; };
+		11666BF91B31CC6600207727 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11666BE71B31CC6600207727 /* Icon@2x.png */; };
+		11666BFC1B31CC8F00207727 /* iconlarge.png in Resources */ = {isa = PBXBuildFile; fileRef = 11666BFB1B31CC8F00207727 /* iconlarge.png */; };
+		117C65E51B20A82200117B25 /* gear.png in Resources */ = {isa = PBXBuildFile; fileRef = 117C65E41B20A82200117B25 /* gear.png */; };
+		118236651B13981B00F66E7E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 118236641B13981B00F66E7E /* main.m */; };
+		118236681B13981B00F66E7E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 118236671B13981B00F66E7E /* AppDelegate.m */; };
+		1182366B1B13981B00F66E7E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1182366A1B13981B00F66E7E /* ViewController.m */; };
+		1182366E1B13981B00F66E7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1182366C1B13981B00F66E7E /* Main.storyboard */; };
+		118236701B13981B00F66E7E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1182366F1B13981B00F66E7E /* Images.xcassets */; };
+		118236731B13981B00F66E7E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 118236711B13981B00F66E7E /* LaunchScreen.xib */; };
+		1182367F1B13981B00F66E7E /* MiniGolfTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1182367E1B13981B00F66E7E /* MiniGolfTests.m */; };
+		1182368B1B13E5B300F66E7E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1182368A1B13E5B300F66E7E /* QuartzCore.framework */; };
+		1182368D1B13E5C100F66E7E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1182368C1B13E5C100F66E7E /* CoreGraphics.framework */; };
+		11B7D9FF1B35BBC1009CC826 /* leftArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 11B7D9FD1B35BBC1009CC826 /* leftArrow.png */; };
+		11B7DA001B35BBC1009CC826 /* rightArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 11B7D9FE1B35BBC1009CC826 /* rightArrow.png */; };
+		11D807B61B31CDE700315C23 /* 76.png in Resources */ = {isa = PBXBuildFile; fileRef = 11D807B31B31CDE700315C23 /* 76.png */; };
+		11D807B71B31CDE700315C23 /* 120.png in Resources */ = {isa = PBXBuildFile; fileRef = 11D807B41B31CDE700315C23 /* 120.png */; };
+		11D807B81B31CDE700315C23 /* 152.png in Resources */ = {isa = PBXBuildFile; fileRef = 11D807B51B31CDE700315C23 /* 152.png */; };
+		3B3C59C51DCBFD61009E4672 /* beer.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B3C59C41DCBFD61009E4672 /* beer.png */; };
+		3B3C59C71DCBFD68009E4672 /* bartop.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B3C59C61DCBFD68009E4672 /* bartop.png */; };
+		3B3C59C91DCBFD84009E4672 /* bar.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3B3C59C81DCBFD84009E4672 /* bar.mp3 */; };
+		3B3C59CB1DCBFDA7009E4672 /* arm.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B3C59CA1DCBFDA7009E4672 /* arm.png */; };
+		3B3C59CD1DCBFEAF009E4672 /* count.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3B3C59CC1DCBFEAF009E4672 /* count.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		118236791B13981B00F66E7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 118236571B13981B00F66E7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1182365E1B13981B00F66E7E;
+			remoteInfo = MiniGolf;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11316C721B2F84E30051A8AF /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		11316C731B2F84E30051A8AF /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		11316C751B306E1F0051A8AF /* gamecenter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gamecenter.png; sourceTree = "<group>"; };
+		11316C771B3070910051A8AF /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		11316C791B3075490051A8AF /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		11316C7B1B3077250051A8AF /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		11316C7C1B3077250051A8AF /* GameCenterManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameCenterManager.h; sourceTree = "<group>"; };
+		11316C7D1B3077250051A8AF /* GameCenterManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameCenterManager.m; sourceTree = "<group>"; };
+		11316C7E1B3077250051A8AF /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		11316C811B30772D0051A8AF /* NSDataAES256.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDataAES256.m; sourceTree = "<group>"; };
+		11316C821B30772D0051A8AF /* NSDataAES256.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDataAES256.h; sourceTree = "<group>"; };
+		11666BB61B30AA9D00207727 /* ohh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ohh.mp3; sourceTree = "<group>"; };
+		11666BB81B30AB6600207727 /* applause.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = applause.mp3; sourceTree = "<group>"; };
+		11666BBE1B30B57900207727 /* slide.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = slide.mp3; sourceTree = "<group>"; };
+		11666BD61B31CC6600207727 /* Icon-60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60.png"; sourceTree = "<group>"; };
+		11666BD71B31CC6600207727 /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@2x.png"; sourceTree = "<group>"; };
+		11666BD81B31CC6600207727 /* Icon-60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@3x.png"; sourceTree = "<group>"; };
+		11666BD91B31CC6600207727 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		11666BDA1B31CC6600207727 /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
+		11666BDB1B31CC6600207727 /* Icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76.png"; sourceTree = "<group>"; };
+		11666BDC1B31CC6600207727 /* Icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76@2x.png"; sourceTree = "<group>"; };
+		11666BDD1B31CC6600207727 /* Icon-76@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76@3x.png"; sourceTree = "<group>"; };
+		11666BDE1B31CC6600207727 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		11666BDF1B31CC6600207727 /* Icon-Small-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50@2x.png"; sourceTree = "<group>"; };
+		11666BE01B31CC6600207727 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		11666BE11B31CC6600207727 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		11666BE21B31CC6600207727 /* Icon-Small@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@3x.png"; sourceTree = "<group>"; };
+		11666BE31B31CC6600207727 /* Icon-Spotlight-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Spotlight-40.png"; sourceTree = "<group>"; };
+		11666BE41B31CC6600207727 /* Icon-Spotlight-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Spotlight-40@2x.png"; sourceTree = "<group>"; };
+		11666BE51B31CC6600207727 /* Icon-Spotlight-40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Spotlight-40@3x.png"; sourceTree = "<group>"; };
+		11666BE61B31CC6600207727 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		11666BE71B31CC6600207727 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		11666BFB1B31CC8F00207727 /* iconlarge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconlarge.png; sourceTree = "<group>"; };
+		117C65E41B20A82200117B25 /* gear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gear.png; sourceTree = "<group>"; };
+		1182365F1B13981B00F66E7E /* MiniGolf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiniGolf.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		118236631B13981B00F66E7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		118236641B13981B00F66E7E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		118236661B13981B00F66E7E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		118236671B13981B00F66E7E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		118236691B13981B00F66E7E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1182366A1B13981B00F66E7E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1182366D1B13981B00F66E7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1182366F1B13981B00F66E7E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		118236721B13981B00F66E7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		118236781B13981B00F66E7E /* MiniGolfTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiniGolfTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1182367D1B13981B00F66E7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1182367E1B13981B00F66E7E /* MiniGolfTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MiniGolfTests.m; sourceTree = "<group>"; };
+		1182368A1B13E5B300F66E7E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		1182368C1B13E5C100F66E7E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		11B7D9FD1B35BBC1009CC826 /* leftArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leftArrow.png; sourceTree = "<group>"; };
+		11B7D9FE1B35BBC1009CC826 /* rightArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rightArrow.png; sourceTree = "<group>"; };
+		11D807B31B31CDE700315C23 /* 76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 76.png; sourceTree = "<group>"; };
+		11D807B41B31CDE700315C23 /* 120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 120.png; sourceTree = "<group>"; };
+		11D807B51B31CDE700315C23 /* 152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 152.png; sourceTree = "<group>"; };
+		3B3C59C41DCBFD61009E4672 /* beer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = beer.png; path = ../../BarTop/BarTop/beer.png; sourceTree = "<group>"; };
+		3B3C59C61DCBFD68009E4672 /* bartop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bartop.png; path = ../../BarTop/BarTop/bartop.png; sourceTree = "<group>"; };
+		3B3C59C81DCBFD84009E4672 /* bar.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bar.mp3; path = ../../BarTop/BarTop/bar.mp3; sourceTree = "<group>"; };
+		3B3C59CA1DCBFDA7009E4672 /* arm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = arm.png; path = ../../BarTop/BarTop/arm.png; sourceTree = "<group>"; };
+		3B3C59CC1DCBFEAF009E4672 /* count.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = count.wav; path = ../../../Downloads/count.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1182365C1B13981B00F66E7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11316C7A1B3075490051A8AF /* GameKit.framework in Frameworks */,
+				11316C781B3070910051A8AF /* iAd.framework in Frameworks */,
+				1182368D1B13E5C100F66E7E /* CoreGraphics.framework in Frameworks */,
+				1182368B1B13E5B300F66E7E /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		118236751B13981B00F66E7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11316C841B3077330051A8AF /* Game Center */ = {
+			isa = PBXGroup;
+			children = (
+				11316C7E1B3077250051A8AF /* Reachability.h */,
+				11316C7B1B3077250051A8AF /* Reachability.m */,
+				11316C7C1B3077250051A8AF /* GameCenterManager.h */,
+				11316C7D1B3077250051A8AF /* GameCenterManager.m */,
+				11316C821B30772D0051A8AF /* NSDataAES256.h */,
+				11316C811B30772D0051A8AF /* NSDataAES256.m */,
+			);
+			name = "Game Center";
+			sourceTree = "<group>";
+		};
+		11666BC61B30D1AF00207727 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				3B3C59CC1DCBFEAF009E4672 /* count.wav */,
+				3B3C59C81DCBFD84009E4672 /* bar.mp3 */,
+				11666BBE1B30B57900207727 /* slide.mp3 */,
+				11666BB81B30AB6600207727 /* applause.mp3 */,
+				11666BB61B30AA9D00207727 /* ohh.mp3 */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+		11666BC71B30D1BC00207727 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				3B3C59CA1DCBFDA7009E4672 /* arm.png */,
+				3B3C59C61DCBFD68009E4672 /* bartop.png */,
+				3B3C59C41DCBFD61009E4672 /* beer.png */,
+				11B7D9FD1B35BBC1009CC826 /* leftArrow.png */,
+				11B7D9FE1B35BBC1009CC826 /* rightArrow.png */,
+				117C65E41B20A82200117B25 /* gear.png */,
+				11316C751B306E1F0051A8AF /* gamecenter.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		11666BFA1B31CC7800207727 /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				11D807B31B31CDE700315C23 /* 76.png */,
+				11D807B41B31CDE700315C23 /* 120.png */,
+				11D807B51B31CDE700315C23 /* 152.png */,
+				11666BFB1B31CC8F00207727 /* iconlarge.png */,
+				11666BD61B31CC6600207727 /* Icon-60.png */,
+				11666BD71B31CC6600207727 /* Icon-60@2x.png */,
+				11666BD81B31CC6600207727 /* Icon-60@3x.png */,
+				11666BD91B31CC6600207727 /* Icon-72.png */,
+				11666BDA1B31CC6600207727 /* Icon-72@2x.png */,
+				11666BDB1B31CC6600207727 /* Icon-76.png */,
+				11666BDC1B31CC6600207727 /* Icon-76@2x.png */,
+				11666BDD1B31CC6600207727 /* Icon-76@3x.png */,
+				11666BDE1B31CC6600207727 /* Icon-Small-50.png */,
+				11666BDF1B31CC6600207727 /* Icon-Small-50@2x.png */,
+				11666BE01B31CC6600207727 /* Icon-Small.png */,
+				11666BE11B31CC6600207727 /* Icon-Small@2x.png */,
+				11666BE21B31CC6600207727 /* Icon-Small@3x.png */,
+				11666BE31B31CC6600207727 /* Icon-Spotlight-40.png */,
+				11666BE41B31CC6600207727 /* Icon-Spotlight-40@2x.png */,
+				11666BE51B31CC6600207727 /* Icon-Spotlight-40@3x.png */,
+				11666BE61B31CC6600207727 /* Icon.png */,
+				11666BE71B31CC6600207727 /* Icon@2x.png */,
+			);
+			name = icons;
+			sourceTree = "<group>";
+		};
+		118236561B13981B00F66E7E = {
+			isa = PBXGroup;
+			children = (
+				118236611B13981B00F66E7E /* MiniGolf */,
+				1182367B1B13981B00F66E7E /* MiniGolfTests */,
+				118236601B13981B00F66E7E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		118236601B13981B00F66E7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1182365F1B13981B00F66E7E /* MiniGolf.app */,
+				118236781B13981B00F66E7E /* MiniGolfTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		118236611B13981B00F66E7E /* MiniGolf */ = {
+			isa = PBXGroup;
+			children = (
+				118236661B13981B00F66E7E /* AppDelegate.h */,
+				118236671B13981B00F66E7E /* AppDelegate.m */,
+				118236691B13981B00F66E7E /* ViewController.h */,
+				1182366A1B13981B00F66E7E /* ViewController.m */,
+				11316C721B2F84E30051A8AF /* SettingsViewController.h */,
+				11316C731B2F84E30051A8AF /* SettingsViewController.m */,
+				1182366C1B13981B00F66E7E /* Main.storyboard */,
+				1182366F1B13981B00F66E7E /* Images.xcassets */,
+				11666BC61B30D1AF00207727 /* Sounds */,
+				11666BFA1B31CC7800207727 /* icons */,
+				11666BC71B30D1BC00207727 /* Images */,
+				118236621B13981B00F66E7E /* Supporting Files */,
+			);
+			path = MiniGolf;
+			sourceTree = "<group>";
+		};
+		118236621B13981B00F66E7E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				11316C841B3077330051A8AF /* Game Center */,
+				118236711B13981B00F66E7E /* LaunchScreen.xib */,
+				11316C791B3075490051A8AF /* GameKit.framework */,
+				11316C771B3070910051A8AF /* iAd.framework */,
+				1182368C1B13E5C100F66E7E /* CoreGraphics.framework */,
+				1182368A1B13E5B300F66E7E /* QuartzCore.framework */,
+				118236631B13981B00F66E7E /* Info.plist */,
+				118236641B13981B00F66E7E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1182367B1B13981B00F66E7E /* MiniGolfTests */ = {
+			isa = PBXGroup;
+			children = (
+				1182367E1B13981B00F66E7E /* MiniGolfTests.m */,
+				1182367C1B13981B00F66E7E /* Supporting Files */,
+			);
+			path = MiniGolfTests;
+			sourceTree = "<group>";
+		};
+		1182367C1B13981B00F66E7E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1182367D1B13981B00F66E7E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1182365E1B13981B00F66E7E /* MiniGolf */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 118236821B13981B00F66E7E /* Build configuration list for PBXNativeTarget "MiniGolf" */;
+			buildPhases = (
+				1182365B1B13981B00F66E7E /* Sources */,
+				1182365C1B13981B00F66E7E /* Frameworks */,
+				1182365D1B13981B00F66E7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MiniGolf;
+			productName = MiniGolf;
+			productReference = 1182365F1B13981B00F66E7E /* MiniGolf.app */;
+			productType = "com.apple.product-type.application";
+		};
+		118236771B13981B00F66E7E /* MiniGolfTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 118236851B13981B00F66E7E /* Build configuration list for PBXNativeTarget "MiniGolfTests" */;
+			buildPhases = (
+				118236741B13981B00F66E7E /* Sources */,
+				118236751B13981B00F66E7E /* Frameworks */,
+				118236761B13981B00F66E7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1182367A1B13981B00F66E7E /* PBXTargetDependency */,
+			);
+			name = MiniGolfTests;
+			productName = MiniGolfTests;
+			productReference = 118236781B13981B00F66E7E /* MiniGolfTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		118236571B13981B00F66E7E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Larry Feldman";
+				TargetAttributes = {
+					1182365E1B13981B00F66E7E = {
+						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = 9Y9N8HRKV2;
+					};
+					118236771B13981B00F66E7E = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 1182365E1B13981B00F66E7E;
+					};
+				};
+			};
+			buildConfigurationList = 1182365A1B13981B00F66E7E /* Build configuration list for PBXProject "MiniGolf" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 118236561B13981B00F66E7E;
+			productRefGroup = 118236601B13981B00F66E7E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1182365E1B13981B00F66E7E /* MiniGolf */,
+				118236771B13981B00F66E7E /* MiniGolfTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1182365D1B13981B00F66E7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B3C59C51DCBFD61009E4672 /* beer.png in Resources */,
+				3B3C59C71DCBFD68009E4672 /* bartop.png in Resources */,
+				11D807B71B31CDE700315C23 /* 120.png in Resources */,
+				11666BE81B31CC6600207727 /* Icon-60.png in Resources */,
+				11666BF91B31CC6600207727 /* Icon@2x.png in Resources */,
+				1182366E1B13981B00F66E7E /* Main.storyboard in Resources */,
+				11666BF11B31CC6600207727 /* Icon-Small-50@2x.png in Resources */,
+				11666BF31B31CC6600207727 /* Icon-Small@2x.png in Resources */,
+				11666BF61B31CC6600207727 /* Icon-Spotlight-40@2x.png in Resources */,
+				11B7D9FF1B35BBC1009CC826 /* leftArrow.png in Resources */,
+				3B3C59CD1DCBFEAF009E4672 /* count.wav in Resources */,
+				11666BEB1B31CC6600207727 /* Icon-72.png in Resources */,
+				117C65E51B20A82200117B25 /* gear.png in Resources */,
+				11D807B61B31CDE700315C23 /* 76.png in Resources */,
+				11666BF41B31CC6600207727 /* Icon-Small@3x.png in Resources */,
+				11B7DA001B35BBC1009CC826 /* rightArrow.png in Resources */,
+				11666BF81B31CC6600207727 /* Icon.png in Resources */,
+				11666BEC1B31CC6600207727 /* Icon-72@2x.png in Resources */,
+				11666BFC1B31CC8F00207727 /* iconlarge.png in Resources */,
+				11666BF51B31CC6600207727 /* Icon-Spotlight-40.png in Resources */,
+				11666BBF1B30B57900207727 /* slide.mp3 in Resources */,
+				11666BF01B31CC6600207727 /* Icon-Small-50.png in Resources */,
+				118236731B13981B00F66E7E /* LaunchScreen.xib in Resources */,
+				11666BE91B31CC6600207727 /* Icon-60@2x.png in Resources */,
+				11666BB71B30AA9D00207727 /* ohh.mp3 in Resources */,
+				3B3C59CB1DCBFDA7009E4672 /* arm.png in Resources */,
+				11666BF71B31CC6600207727 /* Icon-Spotlight-40@3x.png in Resources */,
+				3B3C59C91DCBFD84009E4672 /* bar.mp3 in Resources */,
+				11666BED1B31CC6600207727 /* Icon-76.png in Resources */,
+				11666BEE1B31CC6600207727 /* Icon-76@2x.png in Resources */,
+				11666BF21B31CC6600207727 /* Icon-Small.png in Resources */,
+				11666BB91B30AB6700207727 /* applause.mp3 in Resources */,
+				11D807B81B31CDE700315C23 /* 152.png in Resources */,
+				11666BEA1B31CC6600207727 /* Icon-60@3x.png in Resources */,
+				11666BEF1B31CC6600207727 /* Icon-76@3x.png in Resources */,
+				11316C761B306E1F0051A8AF /* gamecenter.png in Resources */,
+				118236701B13981B00F66E7E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		118236761B13981B00F66E7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1182365B1B13981B00F66E7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1182366B1B13981B00F66E7E /* ViewController.m in Sources */,
+				118236681B13981B00F66E7E /* AppDelegate.m in Sources */,
+				11316C801B3077250051A8AF /* GameCenterManager.m in Sources */,
+				118236651B13981B00F66E7E /* main.m in Sources */,
+				11316C741B2F84E30051A8AF /* SettingsViewController.m in Sources */,
+				11316C831B30772D0051A8AF /* NSDataAES256.m in Sources */,
+				11316C7F1B3077250051A8AF /* Reachability.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		118236741B13981B00F66E7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1182367F1B13981B00F66E7E /* MiniGolfTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1182367A1B13981B00F66E7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1182365E1B13981B00F66E7E /* MiniGolf */;
+			targetProxy = 118236791B13981B00F66E7E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1182366C1B13981B00F66E7E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1182366D1B13981B00F66E7E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		118236711B13981B00F66E7E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				118236721B13981B00F66E7E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		118236801B13981B00F66E7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		118236811B13981B00F66E7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		118236831B13981B00F66E7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: hunter2814@yahoo.com (928MAJB2LK)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: hunter2814@yahoo.com (928MAJB2LK)";
+				INFOPLIST_FILE = MiniGolf/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lfeldman.bullzeye;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c95f1f0e-b3d3-4a17-999b-36c581c50a7f";
+			};
+			name = Debug;
+		};
+		118236841B13981B00F66E7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				INFOPLIST_FILE = MiniGolf/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lfeldman.bullzeye;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "da056b3e-51ec-49a0-adce-27ad1bc2cb71";
+			};
+			name = Release;
+		};
+		118236861B13981B00F66E7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MiniGolfTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lfeldman.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MiniGolf.app/MiniGolf";
+			};
+			name = Debug;
+		};
+		118236871B13981B00F66E7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MiniGolfTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lfeldman.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MiniGolf.app/MiniGolf";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1182365A1B13981B00F66E7E /* Build configuration list for PBXProject "MiniGolf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				118236801B13981B00F66E7E /* Debug */,
+				118236811B13981B00F66E7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		118236821B13981B00F66E7E /* Build configuration list for PBXNativeTarget "MiniGolf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				118236831B13981B00F66E7E /* Debug */,
+				118236841B13981B00F66E7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		118236851B13981B00F66E7E /* Build configuration list for PBXNativeTarget "MiniGolfTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				118236861B13981B00F66E7E /* Debug */,
+				118236871B13981B00F66E7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 118236571B13981B00F66E7E /* Project object */;
+}
