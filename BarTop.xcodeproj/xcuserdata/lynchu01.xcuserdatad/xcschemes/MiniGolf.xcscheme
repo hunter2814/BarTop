@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1182365E1B13981B00F66E7E"
-               BuildableName = "MiniGolf.app"
-               BlueprintName = "MiniGolf"
-               ReferencedContainer = "container:MiniGolf.xcodeproj">
+               BuildableName = "BarTop.app"
+               BlueprintName = "BarTop"
+               ReferencedContainer = "container:BarTop.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "118236771B13981B00F66E7E"
-               BuildableName = "MiniGolfTests.xctest"
-               BlueprintName = "MiniGolfTests"
-               ReferencedContainer = "container:MiniGolf.xcodeproj">
+               BuildableName = "BarTop.xctest"
+               BlueprintName = "BarTopTests"
+               ReferencedContainer = "container:BarTop.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1182365E1B13981B00F66E7E"
-            BuildableName = "MiniGolf.app"
-            BlueprintName = "MiniGolf"
-            ReferencedContainer = "container:MiniGolf.xcodeproj">
+            BuildableName = "BarTop.app"
+            BlueprintName = "BarTop"
+            ReferencedContainer = "container:BarTop.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -66,9 +66,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1182365E1B13981B00F66E7E"
-            BuildableName = "MiniGolf.app"
-            BlueprintName = "MiniGolf"
-            ReferencedContainer = "container:MiniGolf.xcodeproj">
+            BuildableName = "BarTop.app"
+            BlueprintName = "BarTop"
+            ReferencedContainer = "container:BarTop.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -85,9 +85,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1182365E1B13981B00F66E7E"
-            BuildableName = "MiniGolf.app"
-            BlueprintName = "MiniGolf"
-            ReferencedContainer = "container:MiniGolf.xcodeproj">
+            BuildableName = "BarTop.app"
+            BlueprintName = "BarTop"
+            ReferencedContainer = "container:BarTop.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

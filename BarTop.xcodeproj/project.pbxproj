@@ -103,7 +103,7 @@
 		11666BE71B31CC6600207727 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 		11666BFB1B31CC8F00207727 /* iconlarge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconlarge.png; sourceTree = "<group>"; };
 		117C65E41B20A82200117B25 /* gear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gear.png; sourceTree = "<group>"; };
-		1182365F1B13981B00F66E7E /* MiniGolf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiniGolf.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1182365F1B13981B00F66E7E /* BarTop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BarTop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		118236631B13981B00F66E7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		118236641B13981B00F66E7E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		118236661B13981B00F66E7E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -113,7 +113,7 @@
 		1182366D1B13981B00F66E7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1182366F1B13981B00F66E7E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		118236721B13981B00F66E7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		118236781B13981B00F66E7E /* MiniGolfTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiniGolfTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		118236781B13981B00F66E7E /* BarTop.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarTop.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1182367D1B13981B00F66E7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1182367E1B13981B00F66E7E /* MiniGolfTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MiniGolfTests.m; sourceTree = "<group>"; };
 		1182368A1B13E5B300F66E7E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -223,8 +223,8 @@
 		118236561B13981B00F66E7E = {
 			isa = PBXGroup;
 			children = (
-				118236611B13981B00F66E7E /* MiniGolf */,
-				1182367B1B13981B00F66E7E /* MiniGolfTests */,
+				118236611B13981B00F66E7E /* BarTop */,
+				1182367B1B13981B00F66E7E /* BarTopTests */,
 				118236601B13981B00F66E7E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -232,13 +232,13 @@
 		118236601B13981B00F66E7E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1182365F1B13981B00F66E7E /* MiniGolf.app */,
-				118236781B13981B00F66E7E /* MiniGolfTests.xctest */,
+				1182365F1B13981B00F66E7E /* BarTop.app */,
+				118236781B13981B00F66E7E /* BarTop.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		118236611B13981B00F66E7E /* MiniGolf */ = {
+		118236611B13981B00F66E7E /* BarTop */ = {
 			isa = PBXGroup;
 			children = (
 				118236661B13981B00F66E7E /* AppDelegate.h */,
@@ -254,6 +254,7 @@
 				11666BC71B30D1BC00207727 /* Images */,
 				118236621B13981B00F66E7E /* Supporting Files */,
 			);
+			name = BarTop;
 			path = MiniGolf;
 			sourceTree = "<group>";
 		};
@@ -272,12 +273,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		1182367B1B13981B00F66E7E /* MiniGolfTests */ = {
+		1182367B1B13981B00F66E7E /* BarTopTests */ = {
 			isa = PBXGroup;
 			children = (
 				1182367E1B13981B00F66E7E /* MiniGolfTests.m */,
 				1182367C1B13981B00F66E7E /* Supporting Files */,
 			);
+			name = BarTopTests;
 			path = MiniGolfTests;
 			sourceTree = "<group>";
 		};
@@ -292,9 +294,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1182365E1B13981B00F66E7E /* MiniGolf */ = {
+		1182365E1B13981B00F66E7E /* BarTop */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 118236821B13981B00F66E7E /* Build configuration list for PBXNativeTarget "MiniGolf" */;
+			buildConfigurationList = 118236821B13981B00F66E7E /* Build configuration list for PBXNativeTarget "BarTop" */;
 			buildPhases = (
 				1182365B1B13981B00F66E7E /* Sources */,
 				1182365C1B13981B00F66E7E /* Frameworks */,
@@ -304,14 +306,14 @@
 			);
 			dependencies = (
 			);
-			name = MiniGolf;
+			name = BarTop;
 			productName = MiniGolf;
-			productReference = 1182365F1B13981B00F66E7E /* MiniGolf.app */;
+			productReference = 1182365F1B13981B00F66E7E /* BarTop.app */;
 			productType = "com.apple.product-type.application";
 		};
-		118236771B13981B00F66E7E /* MiniGolfTests */ = {
+		118236771B13981B00F66E7E /* BarTopTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 118236851B13981B00F66E7E /* Build configuration list for PBXNativeTarget "MiniGolfTests" */;
+			buildConfigurationList = 118236851B13981B00F66E7E /* Build configuration list for PBXNativeTarget "BarTopTests" */;
 			buildPhases = (
 				118236741B13981B00F66E7E /* Sources */,
 				118236751B13981B00F66E7E /* Frameworks */,
@@ -322,9 +324,9 @@
 			dependencies = (
 				1182367A1B13981B00F66E7E /* PBXTargetDependency */,
 			);
-			name = MiniGolfTests;
+			name = BarTopTests;
 			productName = MiniGolfTests;
-			productReference = 118236781B13981B00F66E7E /* MiniGolfTests.xctest */;
+			productReference = 118236781B13981B00F66E7E /* BarTop.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -346,7 +348,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1182365A1B13981B00F66E7E /* Build configuration list for PBXProject "MiniGolf" */;
+			buildConfigurationList = 1182365A1B13981B00F66E7E /* Build configuration list for PBXProject "BarTop" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -359,8 +361,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1182365E1B13981B00F66E7E /* MiniGolf */,
-				118236771B13981B00F66E7E /* MiniGolfTests */,
+				1182365E1B13981B00F66E7E /* BarTop */,
+				118236771B13981B00F66E7E /* BarTopTests */,
 			);
 		};
 /* End PBXProject section */
@@ -447,7 +449,7 @@
 /* Begin PBXTargetDependency section */
 		1182367A1B13981B00F66E7E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1182365E1B13981B00F66E7E /* MiniGolf */;
+			target = 1182365E1B13981B00F66E7E /* BarTop */;
 			targetProxy = 118236791B13981B00F66E7E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -563,7 +565,7 @@
 				INFOPLIST_FILE = MiniGolf/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lfeldman.bullzeye;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = BarTop;
 				PROVISIONING_PROFILE = "c95f1f0e-b3d3-4a17-999b-36c581c50a7f";
 			};
 			name = Debug;
@@ -576,7 +578,7 @@
 				INFOPLIST_FILE = MiniGolf/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lfeldman.bullzeye;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = BarTop;
 				PROVISIONING_PROFILE = "da056b3e-51ec-49a0-adce-27ad1bc2cb71";
 			};
 			name = Release;
@@ -596,8 +598,8 @@
 				INFOPLIST_FILE = MiniGolfTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lfeldman.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MiniGolf.app/MiniGolf";
+				PRODUCT_NAME = BarTop;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BarTop.app/BarTop";
 			};
 			name = Debug;
 		};
@@ -612,15 +614,15 @@
 				INFOPLIST_FILE = MiniGolfTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lfeldman.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MiniGolf.app/MiniGolf";
+				PRODUCT_NAME = BarTop;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BarTop.app/BarTop";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1182365A1B13981B00F66E7E /* Build configuration list for PBXProject "MiniGolf" */ = {
+		1182365A1B13981B00F66E7E /* Build configuration list for PBXProject "BarTop" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				118236801B13981B00F66E7E /* Debug */,
@@ -629,7 +631,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		118236821B13981B00F66E7E /* Build configuration list for PBXNativeTarget "MiniGolf" */ = {
+		118236821B13981B00F66E7E /* Build configuration list for PBXNativeTarget "BarTop" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				118236831B13981B00F66E7E /* Debug */,
@@ -638,7 +640,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		118236851B13981B00F66E7E /* Build configuration list for PBXNativeTarget "MiniGolfTests" */ = {
+		118236851B13981B00F66E7E /* Build configuration list for PBXNativeTarget "BarTopTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				118236861B13981B00F66E7E /* Debug */,
